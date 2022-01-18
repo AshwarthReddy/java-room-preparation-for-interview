@@ -1,7 +1,6 @@
 package com.anr;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -25,7 +24,7 @@ class Dog implements Serializable {
                 '}';
     }
 }
-public class Main {
+public class SerializationAndDeserialization {
 
 
 
